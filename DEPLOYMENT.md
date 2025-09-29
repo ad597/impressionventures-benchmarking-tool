@@ -13,7 +13,7 @@ gh auth login
 
 # Create repository and push
 gh repo create impressionventures-benchmarking-tool --public --description "AI-powered competitive benchmarking tool for venture capital due diligence"
-git remote add origin https://github.com/YOUR_USERNAME/impressionventures-benchmarking-tool.git
+git remote add origin https://github.com/ad597/impressionventures-benchmarking-tool.git
 git branch -M main
 git push -u origin main
 ```
@@ -26,7 +26,7 @@ git push -u origin main
 5. Run these commands:
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/impressionventures-benchmarking-tool.git
+git remote add origin https://github.com/ad597/impressionventures-benchmarking-tool.git
 git branch -M main
 git push -u origin main
 ```
@@ -64,7 +64,7 @@ echo '<!DOCTYPE html>
         
         <h2>🚀 Quick Start</h2>
         <pre><code># Clone the repository
-git clone https://github.com/YOUR_USERNAME/impressionventures-benchmarking-tool.git
+git clone https://github.com/ad597/impressionventures-benchmarking-tool.git
 cd impressionventures-benchmarking-tool
 
 # Install dependencies
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 # Run the demo
 python run_demo.py</code></pre>
         
-        <a href="https://github.com/YOUR_USERNAME/impressionventures-benchmarking-tool" class="demo-button">
+        <a href="https://github.com/ad597/impressionventures-benchmarking-tool" class="demo-button">
             View on GitHub
         </a>
     </div>
@@ -127,7 +127,7 @@ railway up
 
 Once deployed, you can share:
 
-1. **GitHub Repository**: `https://github.com/YOUR_USERNAME/impressionventures-benchmarking-tool`
+1. **GitHub Repository**: `https://github.com/ad597/impressionventures-benchmarking-tool`
 2. **Live Demo**: `https://your-app.streamlit.app` (if using Streamlit Cloud)
 3. **Local Demo**: Clone and run `python run_demo.py`
 
@@ -146,7 +146,7 @@ Once deployed, you can share:
 
 ```bash
 # Quick setup for interview demo
-git clone https://github.com/YOUR_USERNAME/impressionventures-benchmarking-tool.git
+git clone https://github.com/ad597/impressionventures-benchmarking-tool.git
 cd impressionventures-benchmarking-tool
 pip install -r requirements.txt
 python run_demo.py
