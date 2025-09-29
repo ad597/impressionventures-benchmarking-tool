@@ -1,7 +1,7 @@
 import json
 import re
 from typing import Dict, Any, Optional
-from langchain.llms import OpenAI
+from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.schema import BaseOutputParser
 from langchain.chains import LLMChain
@@ -54,8 +54,8 @@ class CompanyExtractor:
     """Main class for extracting company data using LLMs"""
     
     def __init__(self):
-        self.llm = OpenAI(
-            model_name=Config.DEFAULT_MODEL,
+        self.llm = ChatOpenAI(
+            model=Config.DEFAULT_MODEL,
             openai_api_key=Config.OPENAI_API_KEY,
             temperature=0.1
         )
